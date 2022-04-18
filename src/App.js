@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
+import Certificate from './Components/Certificate';
 // import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
@@ -200,6 +201,21 @@ class App extends Component {
           },
          
           
+        ],
+        "certificates": [
+          {
+            "title": "Kaggle Python",
+            "image": "Python.png",
+          },
+          {
+            "title": "Kaggle Pandas",
+            "image": "Pandas.png",
+          },
+          {
+            "title": "Kaggle Data visualisation",
+            "image": "Data Visualization.png",
+          },   
+          
         ]
       },
     }
@@ -219,6 +235,7 @@ class App extends Component {
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
+        <Certificate data={this.state.resumeData.portfolio} />
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />

@@ -56,13 +56,6 @@ header .banner {
    text-align: center;
 }
 
-   @media (min-width: 320px) { 
-      header .responsive{
-        display: none; 
-      }
-    }
-
- 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -710,11 +703,6 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
-}
-#portfolioCertificate {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
