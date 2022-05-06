@@ -177,7 +177,7 @@ class App extends Component {
         "projects": [
           {
             "title": "Note App",
-            "category": "A cloud based To Do app for your daily tasks made with MERN.The purpose of this app is to save all your notes on Cloud Database which you can access from anywhere around the globe until and unless you are in North Korea",
+            "category": "A cloud based To Notes app for your daily tasks made with MERN.The purpose of this app is to save all your notes on Cloud Database which you can access from anywhere around the globe until and unless you are in North Korea",
             "image": "note.png",
             "url": "https://merinoteapp.herokuapp.com"
           },
@@ -185,7 +185,7 @@ class App extends Component {
             "title": "Weather App",
             "category": "A Weather API based application for real-time weather information.",
             "image": "weather.png",
-            "url": "https://nknittin16436.github.io/livemausam/"
+            "url": "https://livemausam.netlify.app/"
           },
           {
             "title": "PostMan Clone",
