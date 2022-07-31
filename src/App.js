@@ -21,27 +21,14 @@ class App extends Component {
 
   
   getResumeData(){
-    // $.ajax({
-    //   url: 'https://joshuacassidy.github.io/portfolio/data.json',
-    //   url: '.',
-    //   dataType: 'json',
-    //   cache: false,
-    //   success: function(data){
-    //     this.setState({resumeData:data})
-    //   }.bind(this),
-    //   error: function(xhr,status,err){
-    //     console.log(err);
-    //     alert(err);
-    //   }
-    // })
     const data={
       "main": {
         "name": "Nand Kumar",
         "occupation": "Student",
         // "description": "Currently studying a B.Tech in Computer Science and Engineering at the Dronacharya College of Engineering.",
-        "description": "Third year CS student ,who loves to working on algorithm and their visualization emphasising on writing readable code. Full Stack Web Developer with excellent problem solving skills and ability to perform well in a team.",
+        "description": "Final year CS student ,who loves to work on algorithm and their visualization emphasising on writing readable code. Full Stack Web Developer with excellent problem solving skills and ability to perform well in a team.",
         "image": mypic,
-        "bio": "My name is Nand Kumar, I'm twenty-one years old and currently in my third year at the Dronacharya College of Engineering attending B.Tech CSE. I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies such as Python, JavaScript, React, C#, Java, Node.js, MongoDB, MySQL, and many more.",
+        "bio": "My name is Nand Kumar, I'm twenty-one years old and currently in my Final year at the Dronacharya College of Engineering attending B.Tech CSE. I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies such as Python, JavaScript, React,Next.js, Java, Node.js, MongoDB, MySQL, and many more.",
         "email": "nknittin16436@outlook.com",
         "phone": "+91 9625391880",
         "contact": "If you have any questions or would just like to chat feel free to contact me.",
@@ -61,6 +48,11 @@ class App extends Component {
             "name": "github",
             "url": "https://github.com/nknittin16436",
             "className": "fa fa-github"
+          },
+          {
+            "name": "github",
+            "url": "https://github.com/nknittin16436",
+            "className": "fa fa-instagram"
           }
         ]
       },
@@ -82,13 +74,11 @@ class App extends Component {
             "school": "XII BOARDS(HBSE)",
             "certificate": "SCHOOLING",
             "graduated": "April 2016  - June 2018",
-            // "description": "Completed Diploma In Mechanical Engineering From Government Polytechnic ,Manesar."
           },
           {
             "school": "X BOARDS(HBSE)",
             "certificate": "Degree",
             "graduated": "April 2014  - March 2016",
-            // "description": "Completed Diploma In Mechanical Engineering From Government Polytechnic ,Manesar."
           }
         ],
         "skills": [
@@ -124,7 +114,7 @@ class App extends Component {
           },
           {
             "name": "React",
-            "level": "70%"
+            "level": "85%"
           },
           {
             "name": "HTML5",
@@ -149,8 +139,11 @@ class App extends Component {
           {
             "name": "JavaScript",
             "level": "88%"
-          },
-         
+          },     
+          {
+            "name": "TypeScript",
+            "level": "88%"
+          },     
           {
             "name": "Mongo Database",
             "level": "85%"
@@ -160,12 +153,16 @@ class App extends Component {
             "level": "50%"
           },
           {
+            "name": "Next.js",
+            "level": "60%"
+          },
+          {
             "name": "Java",
             "level": "50%"
           },
           {
             "name": "Git",
-            "level": "81%"
+            "level": "80%"
           },
           {
             "name": "Python",
