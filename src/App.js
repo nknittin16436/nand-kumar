@@ -11,17 +11,17 @@ import Footer from './Components/Footer';
 import mypic from './image/mypic.jpg'
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData:{}
+      resumeData: {}
     }
   }
 
-  
-  getResumeData(){
-    const data={
+
+  getResumeData() {
+    const data = {
       "main": {
         "name": "Nand Kumar",
         "occupation": "Student",
@@ -50,8 +50,8 @@ class App extends Component {
             "className": "fa fa-github"
           },
           {
-            "name": "github",
-            "url": "https://github.com/nknittin16436",
+            "name": "instagram",
+            "url": "https://instagram.com/randomactsofnittin",
             "className": "fa fa-instagram"
           }
         ]
@@ -139,11 +139,11 @@ class App extends Component {
           {
             "name": "JavaScript",
             "level": "88%"
-          },     
+          },
           {
             "name": "TypeScript",
             "level": "88%"
-          },     
+          },
           {
             "name": "Mongo Database",
             "level": "85%"
@@ -173,6 +173,24 @@ class App extends Component {
       "portfolio": {
         "projects": [
           {
+            "title": "Restaurant Review App",
+            "category": "A full stack restaurant review app. Made with React ,Nodejs and Json-server.",
+            "image": "restaurant.png",
+            "url": "https://restaurant-review-nand-kumar.netlify.app/"
+          },
+          {
+            "title": "React TODO",
+            "category": "A Todo app made in react. In this app I have used react redux for the maintaining the state of app and localstorage for storing all todos.",
+            "image": "todo.png",
+            "url": "https://react-todo-nand-kumar.netlify.app/"
+          },
+          {
+            "title": "TypeScript Stopwatch",
+            "category": "A Stopwatch app made in react and Typescript.",
+            "image": "stopwatch.png",
+            "url": "https://typescript-stopwatch.netlify.app/"
+          },
+          {
             "title": "Note App",
             "category": "A cloud based To Notes app for your daily tasks made with MERN.The purpose of this app is to save all your notes on Cloud Database which you can access from anywhere around the globe until and unless you are in North Korea",
             "image": "note.png",
@@ -185,19 +203,13 @@ class App extends Component {
             "url": "https://livemausam.netlify.app/"
           },
           {
-            "title": "PostMan Clone",
-            "category": "A Postman clone made with HTML ,Bootstrap And Vanilla Javascript ,which simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.",
-            "image": "postman.png",
-            "url": "https://nknittin16436.github.io/postman-clone"
-          },
-          {
             "title": "Covid Mapper",
             "category": "A website with HTML,CSS and Javascript which plots the number of covid cases around the globe",
             "image": "covid.png",
             "url": "https://nknittin16436.github.io/Covid-O-Map/"
           },
-         
-          
+
+
         ],
         "certificates": [
           {
@@ -211,20 +223,20 @@ class App extends Component {
           {
             "title": "Kaggle Data visualisation",
             "image": "Data Visualization.png",
-          },   
-          
+          },
+
         ]
       },
     }
-    ;
-    this.setState({resumeData:data});
+      ;
+    this.setState({ resumeData: data });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
-  render() { 
+  render() {
     // console.log(this.state.resumeData);
     return (
       <div className="App">
