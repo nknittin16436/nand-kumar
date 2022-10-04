@@ -173,22 +173,28 @@ class App extends Component {
       "portfolio": {
         "projects": [
           {
+            "title": "E-commerce",
+            "category": "MERN stack Ecommerce app.Has all functionality like a Ecommerce like add items to cart , payment interface and admin dashboard.",
+            "image": "ecommerce.png",
+            "url": "https://ecommerce-nand.herokuapp.com"
+          },
+          {
             "title": "Restaurant Review App",
             "category": "A full stack restaurant review app. Made with React ,Nodejs and Json-server.",
             "image": "restaurant.png",
-            "url": "https://restaurant-review-nand-kumar.netlify.app/"
+            "url": "https://restaurant-review-nand-kumar.netlify.app"
           },
           {
             "title": "React TODO",
             "category": "A Todo app made in react. In this app I have used react redux for the maintaining the state of app and localstorage for storing all todos.",
             "image": "todo.png",
-            "url": "https://react-todo-nand-kumar.netlify.app/"
+            "url": "https://react-todo-nand-kumar.netlify.app"
           },
           {
             "title": "TypeScript Stopwatch",
             "category": "A Stopwatch app made in react and Typescript.",
             "image": "stopwatch.png",
-            "url": "https://typescript-stopwatch.netlify.app/"
+            "url": "https://typescript-stopwatch.netlify.app"
           },
           {
             "title": "Note App",
@@ -212,6 +218,10 @@ class App extends Component {
 
         ],
         "certificates": [
+          {
+            "title": "SIH'22 Finalist",
+            "image": "sih.jpg",
+          },
           {
             "title": "Kaggle Python",
             "image": "Python.png",

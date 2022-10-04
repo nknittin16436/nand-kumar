@@ -56,10 +56,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button  type = "submit" action="">Submit</button>
-                     
-
-                                              
+                     <button disabled={true}>Submit</button>                               
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
