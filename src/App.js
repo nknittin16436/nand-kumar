@@ -5,8 +5,6 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 import Certificate from './Components/Certificate';
-// import Testimonials from './Components/Testimonials';
-import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import mypic from './image/mypic.jpg'
 
@@ -25,11 +23,10 @@ class App extends Component {
       "main": {
         "name": "Nand Kumar",
         "occupation": "Student",
-        // "description": "Currently studying a B.Tech in Computer Science and Engineering at the Dronacharya College of Engineering.",
         "description": "Final year CS student ,who loves to work on algorithm and their visualization emphasising on writing readable code. Full Stack Web Developer with excellent problem solving skills and ability to perform well in a team.",
         "image": mypic,
         "bio": "My name is Nand Kumar, I'm twenty-one years old and currently in my Final year at the Dronacharya College of Engineering attending B.Tech CSE. I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies such as Python, JavaScript, React,Next.js, Java, Node.js, MongoDB, MySQL, and many more.",
-        "email": "nknittin16436@outlook.com",
+        "email": "nandkumarsde@gmail.com",
         "phone": "+91 9625391880",
         "contact": "If you have any questions or would just like to chat feel free to contact me.",
         "address": {
@@ -73,12 +70,12 @@ class App extends Component {
           {
             "school": "XII BOARDS(HBSE)",
             "certificate": "SCHOOLING",
-            "graduated": "April 2016  - June 2018",
+            "graduated": "April 2017  - June 2018",
           },
           {
             "school": "X BOARDS(HBSE)",
-            "certificate": "Degree",
-            "graduated": "April 2014  - March 2016",
+            "certificate": "SCHOOLING",
+            "graduated": "April 2015  - March 2016",
           }
         ],
         "skills": [
@@ -110,7 +107,7 @@ class App extends Component {
         "programming_experience": [
           {
             "name": "C++",
-            "level": "80%"
+            "level": "75%"
           },
           {
             "name": "React",
@@ -133,16 +130,12 @@ class App extends Component {
             "level": "80%"
           },
           {
-            "name": "BootStrap",
-            "level": "80%"
-          },
-          {
             "name": "JavaScript",
             "level": "88%"
           },
           {
             "name": "TypeScript",
-            "level": "88%"
+            "level": "70%"
           },
           {
             "name": "Mongo Database",
@@ -153,8 +146,8 @@ class App extends Component {
             "level": "50%"
           },
           {
-            "name": "Next.js",
-            "level": "60%"
+            "name": "nestJS",
+            "level": "80%"
           },
           {
             "name": "Java",
@@ -176,13 +169,13 @@ class App extends Component {
             "title": "E-commerce",
             "category": "MERN stack Ecommerce app.Has all functionality like a Ecommerce like add items to cart , payment interface and admin dashboard.",
             "image": "ecommerce.png",
-            "url": "https://ecommerce-nand.herokuapp.com"
+            "url": "https://github.com/nknittin16436/E-commerce"
           },
           {
-            "title": "Restaurant Review App",
-            "category": "A full stack restaurant review app. Made with React ,Nodejs and Json-server.",
-            "image": "restaurant.png",
-            "url": "https://restaurant-review-nand-kumar.netlify.app"
+            "title": "Bike reservation App",
+            "category": "A full stack bike reservation web app made with React , NESTJS,SQLite3,NodeJs.",
+            "image": "bike.jpg",
+            "url": "https://github.com/nknittin16436/bike-reservation"
           },
           {
             "title": "React TODO",
@@ -200,7 +193,7 @@ class App extends Component {
             "title": "Note App",
             "category": "A cloud based To Notes app for your daily tasks made with MERN.The purpose of this app is to save all your notes on Cloud Database which you can access from anywhere around the globe until and unless you are in North Korea",
             "image": "note.png",
-            "url": "https://merinoteapp.herokuapp.com"
+            "url": "https://github.com/nknittin16436/iNotebook"
           },
           {
             "title": "Weather App",
@@ -247,7 +240,6 @@ class App extends Component {
   }
 
   render() {
-    // console.log(this.state.resumeData);
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
@@ -255,8 +247,6 @@ class App extends Component {
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Certificate data={this.state.resumeData.portfolio} />
-        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
     );
