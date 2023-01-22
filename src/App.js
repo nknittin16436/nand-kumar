@@ -106,28 +106,8 @@ class App extends Component {
         ],
         "programming_experience": [
           {
-            "name": "C++",
-            "level": "75%"
-          },
-          {
             "name": "React",
             "level": "85%"
-          },
-          {
-            "name": "HTML5",
-            "level": "80%"
-          },
-          {
-            "name": "CSS",
-            "level": "90%"
-          },
-          {
-            "name": "JSON",
-            "level": "79%"
-          },
-          {
-            "name": "Node",
-            "level": "80%"
           },
           {
             "name": "JavaScript",
@@ -150,8 +130,38 @@ class App extends Component {
             "level": "80%"
           },
           {
+            "name": "JSON",
+            "level": "79%"
+          },
+          {
+            "name": "Node",
+            "level": "80%"
+          },
+          {
+            "name": "Docker",
+            "level": "80%"
+          },
+          {
+            "name": "Kubernetes",
+            "level": "70%"
+          },
+
+          {
+            "name": "C++",
+            "level": "75%"
+          },
+          {
+            "name": "HTML5",
+            "level": "80%"
+          },
+          {
+            "name": "CSS",
+            "level": "90%"
+          },
+          
+          {
             "name": "Java",
-            "level": "50%"
+            "level": "60%"
           },
           {
             "name": "Git",
@@ -159,7 +169,7 @@ class App extends Component {
           },
           {
             "name": "Python",
-            "level": "45%"
+            "level": "60%"
           },
         ]
       },
