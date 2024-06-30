@@ -23,9 +23,9 @@ class App extends Component {
       "main": {
         "name": "Nand Kumar",
         "occupation": "Student",
-        "description": "Final year CS student ,who loves to work on algorithm and their visualization emphasising on writing readable code. Full Stack Web Developer with excellent problem solving skills and ability to perform well in a team.",
+        "description": "I am a Software Developer with 2 years of experience, I specialize in cross-platform app development using React Native and web development leveraging modern technologies. My expertise spans Frontend, Backend, and Cloud development ensuring a comprehensive approach to creating robust and scalable applications.",
         "image": mypic,
-        "bio": "My name is Nand Kumar, I'm twenty-one years old and currently in my Final year at the Dronacharya College of Engineering attending B.Tech CSE. I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies such as Python, JavaScript, React,Next.js, Java, Node.js, MongoDB, MySQL, and many more.",
+        "bio": "My name is Nand Kumar,I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies.Proficient in React Native, React.js, Node.js, Next.js ,Express.js , Expo ,GraphQL, Apollo Client, Hasura , Javascript , Typescript ,Redux , HTML , CSS ,PostgreSQL , MySQL , MongoDB , AWS (S3, Lambda, SQS, EC2) , Github Actions, Third-Party Services Integration, CI/CD, API Development, User Authentication, Low-Level Design (LLD), High-Level Design (HLD)",
         "email": "nandkumarsde@gmail.com",
         "phone": "+91 9625391880",
         "contact": "If you have any questions or would just like to chat feel free to contact me.",
@@ -48,7 +48,7 @@ class App extends Component {
           },
           {
             "name": "instagram",
-            "url": "https://instagram.com/randomactsofnittin",
+            "url": "https://instagram.com/underscore.nittin",
             "className": "fa fa-instagram"
           }
         ]
@@ -58,7 +58,7 @@ class App extends Component {
           {
             "school": "B.tech Computer Science",
             "certificate": "Degree",
-            "graduated": "August 2020 - Present",
+            "graduated": "August 2020 - June 2023",
             "description": "Started B.Tech at Dronacharya College Of Engineering ."
           },
           {
@@ -158,7 +158,6 @@ class App extends Component {
             "name": "CSS",
             "level": "90%"
           },
-          
           {
             "name": "Java",
             "level": "60%"
