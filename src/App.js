@@ -59,7 +59,7 @@ class App extends Component {
             "school": "B.tech Computer Science",
             "certificate": "Degree",
             "graduated": "August 2020 - June 2023",
-            "description": "Started B.Tech at Dronacharya College Of Engineering ."
+            "description": "Completed B.Tech(Computer Science & Engg) from Dronacharya College Of Engineering."
           },
           {
             "school": "Diploma In Mechanical Engineering",
@@ -106,20 +106,44 @@ class App extends Component {
         ],
         "programming_experience": [
           {
+            "name": "React Native",
+            "level": "90%"
+          },
+          {
             "name": "React",
             "level": "85%"
           },
           {
+            "name": "Node",
+            "level": "80%"
+          },
+          {
             "name": "JavaScript",
-            "level": "88%"
+            "level": "92%"
           },
           {
             "name": "TypeScript",
-            "level": "70%"
+            "level": "95%"
+          },
+          {
+            "name": "GraphQL",
+            "level": "85%"
+          },
+          {
+            "name": "PostgreSQL",
+            "level": "90%"
+          },
+          {
+            "name": "MySQL",
+            "level": "85%"
           },
           {
             "name": "Mongo Database",
-            "level": "85%"
+            "level": "75%"
+          },
+          {
+            "name": "CI/CD",
+            "level": "90%"
           },
           {
             "name": "Redux",
@@ -132,10 +156,6 @@ class App extends Component {
           {
             "name": "JSON",
             "level": "79%"
-          },
-          {
-            "name": "Node",
-            "level": "80%"
           },
           {
             "name": "Docker",
