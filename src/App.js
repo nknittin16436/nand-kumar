@@ -25,7 +25,7 @@ class App extends Component {
         "occupation": "Student",
         "description": "I am a Software Developer with 2 years of experience, I specialize in cross-platform app development using React Native and web development leveraging modern technologies. My expertise spans Frontend, Backend, and Cloud development ensuring a comprehensive approach to creating robust and scalable applications.",
         "image": mypic,
-        "bio": "My name is Nand Kumar,I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies.Proficient in React Native, React.js, Node.js, Next.js ,Express.js , Expo ,GraphQL, Apollo Client, Hasura , Javascript , Typescript ,Redux , HTML , CSS ,PostgreSQL , MySQL , MongoDB , AWS (S3, Lambda, SQS, EC2) , Github Actions, Third-Party Services Integration, CI/CD, API Development, User Authentication, Low-Level Design (LLD), High-Level Design (HLD)",
+        "bio": "My name is Nand Kumar, I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies. \n Proficient in React Native, React.js, Node.js, Next.js ,Express.js , Expo ,GraphQL, Apollo Client, Hasura , Javascript , Typescript ,Redux , HTML , CSS ,PostgreSQL , MySQL , MongoDB , AWS (S3, Lambda, SQS, EC2) , Github Actions, Third-Party Services Integration, CI/CD, API Development, User Authentication, Low-Level Design (LLD), High-Level Design (HLD)",
         "email": "nandkumarsde@gmail.com",
         "phone": "+91 9625391880",
         "contact": "If you have any questions or would just like to chat feel free to contact me.",
